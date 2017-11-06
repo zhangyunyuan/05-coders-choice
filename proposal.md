@@ -2,12 +2,11 @@ Name: Zhang Yunyuan           ID:   45975843
 
 ## Proposed Project
 
-I'd like to build a appointment system for clinic. It's a console based system. Assume the clinic has several doctors. Patients shall be able to pick certain doctor, then choose a date and time period of that doctor to make appointment with him or her. If the date and time of that doctor are unavailable, the patient shall be able to be notified and restart.
+I'd like to build a appointment system for clinic. It's a console based system. Assume the clinic has several doctors. There're 2 types of users. Patients shall be able to pick certain doctor, then choose a date and time period available of that doctor to make appointment with him or her. The doctor shall be able to check his or her schedule.
 
 ## Outline Structure
 
-The interface of the system would be command line based. A server to receive inputed information from the user. The server would handle the data retrieved from database and supervise them. Another supervisor would be used to supervise the appointment made successfully or not, ensure user would get second chance to restart the process.
-
+One module defines doctors' moves. One module defines patients' moves. One module handles the database. There'd be a Gensever to keep tracking of information that user've inputed. Another Gensever uses the database module to insert, update, delete and query database. Both of the Genservers are expected to be supervised to make sure a restart in case of any failure. 
 
 
 > replace all the ">" lines with your content, then push this to
