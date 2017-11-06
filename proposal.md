@@ -1,18 +1,12 @@
-Name: ____________           ID:   ____________
+Name: Zhang Yunyuan           ID:   45975843
 
 ## Proposed Project
 
-> Replace this paragraph with the description of what your project
-> will do. Tell me what kind of interface it will have, and roughly
-> how it will work. I don't need more than three or four sentences,
-> unless you feel compelled to write more.
+I'd like to build a appointment system for clinic. It's a console based system. Assume the clinic has several doctors. Patients shall be able to pick certain doctor, then choose a date and time period of that doctor to make appointment with him or her. If the date and time of that doctor are unavailable, the patient shall be able to be notified and restart.
 
 ## Outline Structure
 
-> Describe how you'll organize your code. What is the process and
-> supervision structure? If it uses a framework, how does it fit in. I
-> just need to understand the direction you plan to take. Again, three
-> or four sentences are probably enough.
+The interface of the system would be command line based. A server to receive inputed information from the user. The server would handle the data retrieved from database and supervise them. Another supervisor would be used to supervise the appointment made successfully or not, ensure user would get second chance to restart the process.
 
 
 
